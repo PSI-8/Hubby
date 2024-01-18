@@ -1,0 +1,23 @@
+nav{
+    font-family: Hobo Std;
+    background: linear-gradient(0.25turn,#e66465,#9198e5);
+}
+@media only screen and (max-width: 767px) {
+    .nav-item{
+        text-align: center;
+    }
+    
+  }
+  
+.dropdown-menu:hover{
+    animation-name: dropdwon-animation;
+    animation-duration: 4s;
+}
+.nav-item:hover, .link:hover{
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+footer{
+    background: linear-gradient(0.25turn,skyblue,pink);
+}
